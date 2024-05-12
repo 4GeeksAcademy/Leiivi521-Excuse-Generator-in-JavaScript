@@ -1,1 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  height: 25vh;
+  margin: 0;
+}
+
+#content {
+  height: inherit; /* Inherit height from body */
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}

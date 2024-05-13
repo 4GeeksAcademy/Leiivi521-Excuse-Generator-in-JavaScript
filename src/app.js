@@ -4,10 +4,9 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-import "./assets/img/procrastination.png";
+// import "./assets/img/procrastination.png";
 
 window.onload = function() {
-  console.log("Hello Rigo from the console!");
   generateExcuse(); // Call the function to generate and display the excuse
 };
 function generateExcuse() {
